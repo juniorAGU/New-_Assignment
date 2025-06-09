@@ -1,0 +1,119 @@
+/* styling the header */
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    column-gap: 35%;
+    padding: 20px 0 0;
+    position: sticky;
+    background-color: white;
+    top: 1px;
+}
+/* styling for the logo */
+.ash{
+    width: 75px;
+    height: 50px;
+    background-color: rgb(44, 37, 37);
+    padding: 0 0 8px 8px;
+    margin-left: 10px;
+    margin-top: px;
+    display: inline-block;
+    border-radius: 5px 40% 5px 40%;
+}
+#ash1{
+    width: 65px;
+    height: 25px;
+    color: white;
+    background-color: rgb(8, 8, 204);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 45% 0 45% 0;
+}
+ul{
+    width: 40%;
+    display: inline-block;
+    list-style-type: none;
+    display: flex;
+    column-gap: 10%;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8px;
+}
+li:hover{
+    background-color: beige;
+    border-radius: 15px;
+}
+li:active{
+    background-color: gray;
+}
+li:visited{
+    color: gray;
+    background-color: rgba(245, 245, 220, 0.973);
+}
+a{
+    text-decoration: none;
+}
+/* styling for the body */
+.container{
+    width: 100%;
+    height: 55cm;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+.me{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.me img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 1s linear;
+}
+img:hover{
+    width: 102%;
+    height: 102%;
+}
+#cal1,#cal2,.cal3,.cal4,.cal5,.cal6,.cal7,.cal8,.cal9,.cal10,.cal11,.cal12{
+    text-align: center;
+    background-color: rgb(211, 76, 72);
+    padding: 6px;
+    width: 60px;
+    margin-left: 190px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 1px solid red;
+    outline: 2px solid black;
+    outline-offset: 5px;
+    border-radius: 10px;
+    color: white;
+}
+#demo1,#demo2,#demo3,#demo4,#demo5,#demo6,#demo7,#demo8,#demo9,#demo10,#demo11,#demo12{
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    background-color: rgb(46, 45, 45);
+    border-radius: 10px;
+    color: white;
+}
+
+/* styling for the footer */
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(11, 27, 27);
+}
+.con3{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
